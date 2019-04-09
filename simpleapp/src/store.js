@@ -39,6 +39,7 @@ export default new Vuex.Store({
       state.todos[state.editIdx] = title;
       state.editIdx = -1;
       state.title = "";
+      console.log(title);
     }
   }
 });
